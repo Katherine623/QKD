@@ -114,7 +114,7 @@ with head2:
     st.markdown(
         f"""
         <div class="metric-card">
-            <div class="metric-title">SHOR-PRESKILL 速率</div>
+            <div class="metric-title">SHOR-PRESKILL 金鑰率</div>
             <div class="metric-value">{ani_now:.3f}</div>
         </div>
         """,
@@ -124,7 +124,7 @@ with head3:
     st.markdown(
         f"""
         <div class="metric-card">
-            <div class="metric-title">六態協定速率</div>
+            <div class="metric-title">六態協定金鑰率</div>
             <div class="metric-value">{iso_now:.3f}</div>
         </div>
         """,
@@ -227,7 +227,7 @@ with val1:
     st.markdown(
         f"""
         <div class="value-box">
-            <div class="value-title">各向異性 (Shor-Preskill)</div>
+            <div class="value-title">非等向 (Shor-Preskill)</div>
             <div class="value-number-blue">{ani_now:.4f}</div>
         </div>
         """,
@@ -237,7 +237,7 @@ with val2:
     st.markdown(
         f"""
         <div class="value-box">
-            <div class="value-title">各向同性 (六態協定)</div>
+            <div class="value-title">等向 (六態協定)</div>
             <div class="value-number-green">{iso_now:.4f}</div>
         </div>
         """,
