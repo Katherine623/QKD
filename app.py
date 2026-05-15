@@ -227,7 +227,7 @@ with val1:
     st.markdown(
         f"""
         <div class="value-box">
-            <div class="value-title">非等向 (Shor-Preskill)</div>
+            <div class="value-title">各向異性退極化通道 (Shor-Preskill)</div>
             <div class="value-number-blue">{ani_now:.4f}</div>
         </div>
         """,
@@ -237,7 +237,7 @@ with val2:
     st.markdown(
         f"""
         <div class="value-box">
-            <div class="value-title">等向 (六態協定)</div>
+            <div class="value-title">各向同性退極化通道 (六態協定)</div>
             <div class="value-number-green">{iso_now:.4f}</div>
         </div>
         """,
